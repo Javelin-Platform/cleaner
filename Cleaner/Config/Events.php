@@ -2,7 +2,6 @@
 
 namespace Module\Cleaner\Config;
 
-// Create CRON jobs for automatically sending emails and deleting carts
 use App\Libraries\System\Events;
 
 Events::on('cron_jobs', function ($jobs) {
